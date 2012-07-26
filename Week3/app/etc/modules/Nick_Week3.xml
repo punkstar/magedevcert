@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nick_Week3>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Nick_Week3>
+    </modules>
+</config>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nick_Week3>
+            <version>1.0.0</version>
+        </Nick_Week3>
+    </modules>
+    <global>
+        <helpers>
+            <week3>
+                <class>Nick_Week3_Helper</class>
+            </week3>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <week3>
+                <use>standard</use>
+                <args>
+                    <module>Nick_Week3</module>
+                    <frontName>week3</frontName>
+                </args>
+            </week3>
+        </routers>
+        <layout>
+            <updates>
+                <week3>
+                    <file>nick/week3.xml</file>
+                </week3>
+            </updates>
+        </layout>
+    </frontend>
+</config>

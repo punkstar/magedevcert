@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout>
+    <foo>
+        <!--
+        When the response is ready to go back to the browser from the layout object, it calls (in the controller,
+        specifically Mage_Core_Controller_Varien_Action::renderLayout()):
+            
+            $this->getLayout()->getUpdate()->getOutput();
+            
+        Inside getOutput() it loops through all of the blocks that have an output="" attribute and calls the method
+        that's the value of the output attribute, so in this case it would call Mage_Core_Block_Text::toHtml().
+        
+        There can be multiple "output" blocks, and they are called one after each other.
+        -->
+        <block type="core/text" name="text" output="toHtml">
+            <action method="setText"><text>Hello World</text></action>
+        </block>
+    </foo>
+</layout>
