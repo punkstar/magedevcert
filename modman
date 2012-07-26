@@ -4,3 +4,8 @@ Week2/DynamicPaymentHelper/app/code/local/Nick/* app/code/local/Nick/
 Week3/app/etc/modules/* app/etc/modules/
 Week3/app/code/local/Nick/* app/code/local/Nick/
 Week3/app/design/frontend/base/default/layout/nick/* app/design/frontend/base/default/layout/nick/
+Week3/app/design/frontend/base/default/template/nick/week3/* app/design/frontend/base/default/template/nick/week3/
+Week3/app/design/frontend/base/enterprise/template/nick/week3/* app/design/frontend/base/enterprise/template/nick/week3/
+Week3/app/design/frontend/my/default/template/nick/week3/* app/design/frontend/my/default/template/nick/week3/
+Week3/app/design/frontend/my/primary/template/nick/week3/* app/design/frontend/my/primary/template/nick/week3/
+Week3/app/design/frontend/my/christmas/template/nick/week3/* app/design/frontend/my/christmas/template/nick/week3/

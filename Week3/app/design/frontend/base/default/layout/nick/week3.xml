@@ -15,5 +15,13 @@
         <block type="core/text" name="text" output="toHtml">
             <action method="setText"><text>Hello World</text></action>
         </block>
+
+        <block type="core/text_list" name="text_list" output="toHtml">
+            <block type="core/template" name="a" template="nick/week3/a.phtml" />
+            <block type="core/template" name="b" template="nick/week3/b.phtml" />
+            <block type="core/template" name="c" template="nick/week3/c.phtml" />
+            <block type="core/template" name="d" template="nick/week3/d.phtml" />
+            <block type="core/template" name="e" template="nick/week3/e.phtml" />
+        </block>
     </foo>
 </layout>

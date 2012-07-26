@@ -11,6 +11,16 @@
                 <class>Nick_Week3_Helper</class>
             </week3>
         </helpers>
+        <models>
+            <week3>
+                <class>Nick_Week3_Model</class>
+            </week3>
+            <core>
+                <rewrite>
+                    <design_package>Nick_Week3_Model_Core_Design_Package</design_package>
+                </rewrite>
+            </core>
+        </models>
     </global>
     <frontend>
         <routers>
